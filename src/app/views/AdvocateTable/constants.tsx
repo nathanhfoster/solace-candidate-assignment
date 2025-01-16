@@ -24,6 +24,7 @@ export const CONFIG_ADOVCATES_TABLE: ColumnConfig<Advocate>[] = [
     key: "city",
     render: (rowData) => rowData.city,
     title: "City",
+    width: 100,
   },
   {
     key: "degree",
